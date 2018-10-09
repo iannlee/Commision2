@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MuA-Ak-BNN">
-                                <rect key="frame" x="152" y="145" width="181" height="130.33333333333334"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MuA-Ak-BNN">
+                                <rect key="frame" x="116.66666666666669" y="303" width="181" height="130.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Base Pay = $500.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbL-YX-yE6">
                                         <rect key="frame" x="0.0" y="0.0" width="181" height="20.333333333333332"/>
@@ -28,7 +27,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YQD-hB-F60">
-                                        <rect key="frame" x="0.0" y="20.333333333333329" width="181" height="30"/>
+                                        <rect key="frame" x="0.0" y="20.333333333333314" width="181" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commission Pay = $" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EB2-Zp-ZVJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="156" height="30"/>
@@ -45,13 +44,13 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTr-Ye-8by">
-                                        <rect key="frame" x="0.0" y="50.333333333333343" width="181" height="50"/>
+                                        <rect key="frame" x="0.0" y="50.333333333333314" width="181" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2sV-fz-jy7">
-                                        <rect key="frame" x="0.0" y="100.33333333333333" width="181" height="29.999999999999986"/>
+                                        <rect key="frame" x="0.0" y="100.33333333333331" width="181" height="30"/>
                                         <color key="backgroundColor" red="0.0" green="0.53144651870000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Calculate">
                                             <color key="titleColor" red="0.97095455090000005" green="1" blue="0.98467525710000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -61,6 +60,10 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MuA-Ak-BNN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gAd-oD-mqL"/>
+                            <constraint firstItem="MuA-Ak-BNN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vbe-Jc-AKz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
