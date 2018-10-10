@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var totalPayLabel: UITextField!
-    @IBOutlet weak var commissionPayTextField: UILabel!
+    @IBOutlet weak var totalPayLabel: UILabel!
+    @IBOutlet weak var commissionPayTextField: UITextField!
     let basePay:Int = 500
     
     

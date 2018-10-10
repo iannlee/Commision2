@@ -70,8 +70,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="commissionPayTextField" destination="YTr-Ye-8by" id="RyF-4D-3ss"/>
-                        <outlet property="totalPayLabel" destination="d3c-mo-XDo" id="Dxo-Db-Mnh"/>
+                        <outlet property="commissionPayTextField" destination="d3c-mo-XDo" id="q1h-u6-oR8"/>
+                        <outlet property="totalPayLabel" destination="AbL-YX-yE6" id="TZx-ar-91Z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
