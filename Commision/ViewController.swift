@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         let comPay = getInput()
         let totalPay = comPay + Double(basePay)
         totalPayLabel.text = "Total Pay = $\(totalPay)"
+        resignFirstResponder()
     }
     
     func getInput() -> Double {
